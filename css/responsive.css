@@ -1,0 +1,183 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+  /* membership package part start */
+  #membership .package ul {
+    padding: 10px;
+  }
+
+  #membership .package ul li {
+    padding: 5px;
+  }
+
+  #membership .package h3 {
+    padding: 10px 0;
+  }
+
+  #membership .package h3 span {
+    font-size: 40px;
+  }
+  /* membership package part end */
+
+  /* counter part start */
+  #counter {
+    padding: 30px 0;
+  }
+
+  #counter .col-6{
+    padding: 10px 0;
+  }
+  /* counter part end */
+
+  /* colorful-tab start */
+  #classes .colorful-tab-menu li a {
+    padding: 10px 0;
+  }
+
+  .colorful-tab-content ul li {
+    width: 50%;
+  }
+  /* colorful-tab ends */
+}
+
+
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  
+  /* header part start */
+ #header {
+   position: fixed;
+   top: 0;
+ }
+ #header .navbar {
+   background: #e23e38;
+   padding:5px 15px;
+ }
+ #header .navbar-brand,
+ #header.position-fixed .navbar-brand {
+   padding: 0px 30px;
+   top: -5px;
+ };
+ 
+ .navbar-collapse {
+  text-align: center;
+  margin-top: 10px;
+ } 
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+  line-height: 40px;
+  text-align: center;
+ }
+
+ .navbar-nav > .nav-item > .nav-link.active::after,
+ .navbar-nav > .nav-item > .nav-link:hover::after {
+   width: 0px;
+ }
+ /* header part end */
+
+ /* banner part start */
+ .banner-content h3 {
+   font-size: 20px;
+ }
+
+ .banner-content h1 {
+   font-size: 40px;
+ }
+
+ .banner-btn a {
+  padding: 0px 20px;
+  margin: 10px;
+ }
+
+ .bnr-item {
+  min-height: 400px;
+ }
+
+ .banner-content {
+   padding-top: 25%;
+ }
+
+ .banner-1 .banner-content {
+   background: none;
+ }
+/* banner part end */
+
+/* about part strt */
+  #about,
+  #gallery,
+  #team {
+    padding: 40px 0 0;
+  }
+  
+  .abt-txt p {
+    padding: 16px 0px 20px;
+  }
+  /* about part end */
+  
+  /* team part start */
+  figure {
+    margin: 40px 0 0;
+  } 
+  /* team part ends */
+  
+  /* testimonial part start */
+  #testimonial {
+    padding: 0;
+  }
+  /* testimonial part end */
+  
+  /* back to pot button strat */
+  .top-btn {
+    font-size: 1.5em;
+    bottom: 1rem;
+    right: 1.5rem;
+  }
+  /* back to pot button end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .colorful-tab-content ul li {
+    width: 33.3%;
+  }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+  #header .navbar {
+    padding: 5px;
+  }
+
+  .navbar-brand {
+    top: -15px;
+  }
+
+  #header.position-fixed .navbar-brand {
+    top: -5px;
+    padding: 0px 30px;
+  }
+
+  .video-img  {
+    margin-top: 30px;
+  }
+
+  
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 1199px) {
+  .top-btn {
+    right: 1em;
+    bottom: 1em;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+ }
